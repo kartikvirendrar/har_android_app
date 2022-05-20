@@ -8,27 +8,53 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/biking_TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Biking :"
+        android:textSize="22sp" />
+    <TextView
+        android:id="@+id/downstairs_TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Downstairs :"
+        android:textSize="22sp"/>
+    <TextView
+        android:id="@+id/jogging_TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Jogging :"
+        android:textSize="22sp"/>
+    <TextView
         android:id="@+id/sitting_TextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:textSize="22sp"
-        android:textColor="@android:color/background_dark"/>
-
+        android:text="Sitting :"
+        android:textSize="22sp"/>
     <TextView
         android:id="@+id/standing_TextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:textSize="22sp"
-        android:textColor="@android:color/background_dark"/>
-
+        android:text="Standing :"
+        android:textSize="22sp"/>
     <TextView
-        android:id="@+id/lying_TextView"
+        android:id="@+id/upstairs_TextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:textSize="22sp"
-        android:textColor="@android:color/background_dark"/>
+        android:text="Upstairs :"
+        android:textSize="22sp"/>
+    <TextView
+        android:id="@+id/walking_TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Walking :"
+        android:textSize="22sp"/>
 
 </LinearLayout>
