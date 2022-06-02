@@ -1,4 +1,4 @@
-<h1>Human Activity Recognition Android App</h1>
+<h1>Human Activity Recognition (LSTM Model) Android App</h1>
 
 
 <h3>Screenshot -</h3>
